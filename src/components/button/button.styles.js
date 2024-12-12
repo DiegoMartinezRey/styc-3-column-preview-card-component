@@ -1,10 +1,14 @@
 import styled from 'styled-components';
 
 const StyledButton = styled.button`
-	background-color: ${({ color }) => color};
-	color: white;
+	background-color: white;
+	color: ${({ color }) => color};
 	border: none;
-	padding: 0.5rem;
+	padding: 12px 0;
+	border-radius: 25px;
+	width: 146px;
+	border: 1px solid white;
+	cursor: pointer;
 
 	@media screen and (width>768px) {
 		display: block;
@@ -12,7 +16,8 @@ const StyledButton = styled.button`
 
 	@media (hover: hover) {
 		&:hover {
-			scale: 0.8;
+			background-color: transparent;
+			color: white;
 		}
 	}
 `;

@@ -23,5 +23,12 @@ export const GlobalStyles = createGlobalStyle`
         text-decoration: none;
         color: inherit;
     }
+    h1,h2,h3,p{
+        margin: 0;
+    }
+    body{
+        font-family: "Lexend Deca", sans-serif;
+        color: white;
+    }
 
 `;
